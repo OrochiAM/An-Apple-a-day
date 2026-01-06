@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #b7e3b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  cursor: grab;
+  width: 12%;
+  transition-duration: 0.2s;
+  filter: drop-shadow(0px 0px 50px hsl(59, 100%, 73%)) saturate(1);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+img:hover {
+  width: 13%;
+  filter: drop-shadow(0px 0px 90px hsl(59, 100%, 73%)) saturate(1.5);
+}
+
+img:active {
+  cursor: grabbing;
+  width: 11%;
+}/*# sourceMappingURL=style.css.map */
